@@ -1,0 +1,125 @@
+* {
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+body{
+    font-family: sans-serif;
+    
+}
+
+header{
+    background-color: lightgrey;
+    padding: 3% 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+h1{
+    font-weight: bold;
+}
+
+h2{
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 28px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    text-align: center;
+}
+
+header li, header h1, header nav{
+    display: inline-block;
+}
+
+.hero{
+    padding: 10% 60px;
+    text-align: center;
+}
+
+footer{
+    padding: 3% 60px; 
+    text-align: center;
+    background-color: grey;
+}
+
+.main-section-w{
+    padding: 10% 60px;
+    text-align: center;
+}
+
+.nav-2{
+    background-color: lightgrey;
+    padding: 3% 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.nav-2 li, .nav-2 nav{
+    display: inline-block;
+}
+
+.main-section-g{
+    padding: 10% 60px;
+    background-color: lightgrey;
+    text-align: center;
+}
+
+#product-feature-1, #product-feature-2, #product-feature-3 {
+    display: flex;
+    text-align: center;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#product-feature-1 div, #product-feature-2 div, #product-feature-3 div{
+    display: inline-block;
+    flex-basis: 50%;
+}
+
+form{
+    text-align: center;
+}
+
+.button{
+    height: 50px;
+    width: 150px;
+    margin: 0 auto;
+    background-color: lightgrey;
+    padding-top: 15px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.button a {
+    text-decoration: none;
+    color: black;
+}
+
+.aisle {
+    font-weight: bold;
+}
+
+.button-control .button {
+    display: inline-block;
+    width: 80px;
+    height: 40px;
+    padding-top: 10px;
+    margin-top: 10px;
+
+}
+
+.button-control{
+    margin-bottom: 40px;
+}
+
+.selected {
+    font-weight: bolder;
+}
